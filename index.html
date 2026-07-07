@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Reniel Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- PROFILE IMAGE VIEWER -->
+
+<div class="image-viewer" id="imageViewer">
+
+<span class="close-btn" onclick="closeImage()">×</span>
+
+<img src="RENIEL.png" alt="Reniel">
+
+</div>
+
+
+
+<!-- NAVBAR -->
+
+<nav>
+
+
+<div class="logo">
+
+<span>RB</span>
+
+</div>
+
+
+
+<div class="links">
+
+
+<a href="#about">About</a>
+
+<a href="#education">Education</a>
+
+<a href="#interest">Interest</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#skills">Skills</a>
+
+<a href="#contact">Contact</a>
+
+
+
+<button id="darkMode">
+
+<i id="modeIcon" class="fa-solid fa-sun"></i>
+
+</button>
+
+
+</div>
+
+
+</nav>
+
+
+
+
+
+<!-- PROFILE -->
+
+
+<section id="profile">
+
+
+<div class="card">
+
+
+
+<div class="profile-circle" onclick="openImage()">
+
+<img src="RENIEL.png" alt="Profile Picture">
+
+</div>
+
+
+
+<div class="content">
+
+
+<h1>Hey! I'm Becina, Reniel O.</h1>
+
+<h2>An Aspiring Web Developer</h2>
+
+
+
+<p>
+I am a 3rd-year Information Technology student who enjoys learning
+about programming and exploring different areas of technology.
+I am continuously improving my skills, gaining experience through
+projects, and discovering new ways to create useful digital solutions.
+</p>
+
+<div class="contact-info">
+
+    <h3>CONTACTS:</h3>
+
+    <div class="contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>+0960 667 0336</span>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <span>renielbecina13@gmail.com</span>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Borongan City, Eastern Samar, Philippines</span>
+    </div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- ABOUT -->
+
+
+<section id="about">
+
+
+<div class="section-card">
+
+
+<p class="small-title">
+
+ABOUT ME
+
+</p>
+
+
+
+<h1>
+
+Who i am?
+
+</h1>
+
+
+
+<p>
+
+Hi, I’m Reniel Becina, a 20-year-old 3rd-year Information Technology student and currently studying at EASTERN SAMAR STATE UNIVERSITY(MAIN). I'm from Borongan City, Eastern Samar, I am passionate about programming, web development, and exploring different areas of technology. I enjoy continuously improving my skills, learning new technologies, and creating digital solutions that turn ideas into meaningful and functional projects.
+
+As I continue my journey in the IT field, I aim to gain more experience, expand my knowledge, and build projects that can provide value and solve real-world problems.
+
+</p>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- EDUCATION -->
+
+
+<section id="education">
+
+
+<div class="section-card">
+
+
+<p class="small-title">
+
+EDUCATION
+
+</p>
+
+
+
+<h1>
+
+My Journey:
+
+</h1>
+
+
+
+<div class="timeline">
+
+
+
+
+
+<!-- ELEMENTARY -->
+
+
+<div class="edu-card">
+
+
+<div class="edu-image">
+
+
+<img 
+src="pilot.jpg"
+onclick="openEduImage(this.src,'2012 - 2018','Photo by: ESDPES Facebook Page')">
+
+
+</div>
+
+
+
+<div class="edu-text">
+
+
+<h2>
+
+ESDPES
+
+</h2>
+
+
+<p>
+
+This was my school when I was in elementary. My first steps in education where I started building my foundation and learning new things.
+
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- HIGH SCHOOL -->
+
+
+<div class="edu-card">
+
+
+<div class="edu-image">
+
+
+<img 
+src="compre.jpg"
+onclick="openEduImage(this.src,'2018 - 2024','Photo by: Rj borongancity pilipinas')">
+
+
+</div>
+
+
+
+<div class="edu-text">
+
+
+<h2>
+
+ESNCHS
+
+</h2>
+
+
+<p>
+
+This was my school when I was in high school. A period where I discovered my interests, improved my skills, and prepared myself for higher education.
+
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- COLLEGE -->
+
+
+<div class="edu-card">
+
+
+<div class="edu-image">
+
+
+<img 
+src="ESSU.jpg"
+onclick="openEduImage(this.src,'Present','Photo by: ESSU MAIN FACEBOOK PAGE')">
+
+
+</div>
+
+
+
+<div class="edu-text">
+
+
+<h2>
+
+ESSU MAIN BORONGAN CITY
+
+</h2>
+
+
+<p>
+
+This is my school now where I am currently studying Bachelor of Science in Information Technology and continuously learning programming and technology.
+
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- EDUCATION IMAGE POPUP -->
+
+
+<div class="image-viewer" id="eduViewer">
+
+
+<span class="close-btn" onclick="closeEduImage()">×</span>
+
+
+
+<div class="edu-popup">
+
+
+<img id="eduBigImage">
+
+
+
+<div class="viewer-info">
+
+
+<h3 id="viewerYear"></h3>
+
+
+<p id="photoCredit"></p>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- INTEREST -->
+
+
+<section id="interest">
+
+
+<div class="section-card">
+
+
+<p class="small-title">
+
+INTEREST
+
+</p>
+
+
+
+<h1>
+
+What my Hobbies Are:
+
+</h1>
+
+
+
+<p>
+
+Outside of technology, I enjoy spending my free time exploring different forms of entertainment. I like playing games such as Mobile Legends, Sausage Man, and various PS5 games, where I can experience competition, strategy, and storytelling. I also enjoy watching sports and movies, especially action and comedy genres. In addition, I enjoy staying active by exercising and participating in sports such as basketball, biking, jogging, and walking, as these activities help me maintain a healthy lifestyle and clear my mind. Music is also a big part of my daily life, particularly hip-hop and R&B, which I enjoy listening to while relaxing or while i'm working on something.
+</p>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- PROJECTS -->
+
+
+<section id="projects">
+
+
+<div class="section-card">
+
+
+<p class="small-title">
+
+PROJECTS
+
+</p>
+
+
+
+<div class="project-timeline">
+
+
+
+
+
+<div class="project-card">
+
+
+<div class="project-text">
+
+
+<h2>
+
+GearShift POS
+
+</h2>
+
+
+
+<p class="project-date">
+
+2024 - 2025
+
+</p>
+
+
+
+<p>
+
+A desktop-based Point-of-Sale system created to help manage hardware store operations efficiently. It provides tools for inventory tracking, sales management, and user authentication while focusing on a cleaner and more convenient workflow. Developed using C# and enhanced with modern UI components.
+
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="project-card">
+
+
+<div class="project-text">
+
+
+<h2>
+
+MILO PO
+
+</h2>
+
+
+
+<p class="project-date">
+
+2025 - 2026
+
+</p>
+
+
+
+<p>
+
+A business showcase website developed to present products and information in a simple and organized way. Created for an Entrepreneurship project, the website focuses on displaying the business concept, product details, promotional content, and customer contact features using HTML and CSS.
+
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="project-card">
+
+
+<div class="project-text">
+
+
+<h2>
+
+Task Manager
+
+</h2>
+
+
+
+<p class="project-date">
+
+2025 - 2026
+
+</p>
+
+
+
+<p>
+
+A task management system developed as our final project to help organize and manage tasks efficiently. Built using PHP as the main programming language, this system focuses on providing a simple and structured way to handle tasks and improve workflow management.
+
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- SKILLS -->
+
+
+<section id="skills">
+
+
+<div class="section-card">
+
+
+<p class="small-title">
+
+SKILLS
+
+</p>
+
+
+
+<h1>
+
+What i can do:
+
+</h1>
+
+
+
+<div class="skills-container">
+
+
+<div class="skill-box">
+
+
+<h3>
+
+Technical Skills
+
+</h3>
+
+
+<div class="skills">
+
+
+<div>
+
+MySQL, Visual Basic, C#
+
+</div>
+
+
+<div>
+
+PHP, HTML & CSS
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="skill-box">
+
+
+<h3>
+
+Creative Skills
+
+</h3>
+
+
+<div class="skills">
+
+
+<div>
+
+CapCut
+
+</div>
+
+
+<div>
+
+Alight Motion
+
+</div>
+
+
+<div>
+
+Canva
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- CONTACT -->
+
+
+<section id="contact">
+
+
+<div class="section-card">
+
+
+<p class="small-title">
+
+CONTACTS
+
+</p>
+
+
+
+<h1>
+
+Let's Connect!
+
+</h1>
+
+
+
+<div class="social contact-social">
+
+
+
+<a href="https://www.facebook.com/reniel.becina.3" title="Facebook" target="_blank">
+
+<i class="fa-brands fa-facebook"></i>
+
+</a>
+
+
+
+<a href="https://www.instagram.com/mangrenil13" title="Instagram" target="_blank">
+
+<i class="fa-brands fa-instagram"></i>
+
+</a>
+
+
+
+<a href="#" title="Email" onclick="openContact(); return false;">
+    <i class="fa-solid fa-envelope"></i>
+</a>
+
+
+
+<div class="phone-display">
+    <i class="fa-solid fa-phone"></i>
+    <span>+09606670336</span>
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<script>
+
+
+function openImage(){
+
+document.getElementById("imageViewer").style.display="flex";
+
+}
+
+
+
+function closeImage(){
+
+document.getElementById("imageViewer").style.display="none";
+
+}
+
+// ================= PROFILE IMAGE VIEWER =================
+
+function openImage() {
+    document.getElementById("imageViewer").style.display = "flex";
+}
+
+function closeImage() {
+    document.getElementById("imageViewer").style.display = "none";
+}
+
+// Close when clicking outside the image
+document.getElementById("imageViewer").addEventListener("click", function (e) {
+    if (e.target === this) {
+        closeImage();
+    }
+});
+
+// Close when pressing ESC
+document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+        closeImage();
+    }
+});
+
+
+
+
+// DARK MODE
+
+
+const darkBtn=document.getElementById("darkMode");
+
+const modeIcon=document.getElementById("modeIcon");
+
+
+
+darkBtn.onclick=()=>{
+
+
+document.body.classList.toggle("dark");
+
+
+
+if(document.body.classList.contains("dark")){
+
+
+modeIcon.className="fa-solid fa-moon";
+
+
+}else{
+
+
+modeIcon.className="fa-solid fa-sun";
+
+
+}
+
+
+};
+
+
+
+
+
+
+// SCROLL ANIMATION
+
+
+
+const sections=document.querySelectorAll("section");
+
+
+
+const observer=new IntersectionObserver(entries=>{
+
+
+entries.forEach(entry=>{
+
+
+if(entry.isIntersecting){
+
+
+entry.target.classList.add("show");
+
+
+
+document.querySelectorAll(".links a").forEach(link=>{
+
+
+link.classList.remove("active");
+
+
+
+if(link.getAttribute("href")=="#"+entry.target.id){
+
+
+link.classList.add("active");
+
+
+}
+
+
+});
+
+
+}
+
+
+});
+
+
+},{threshold:.5});
+
+
+
+sections.forEach(section=>{
+
+observer.observe(section);
+
+});
+
+
+
+
+
+
+
+// EDUCATION IMAGE VIEWER
+
+
+
+function openEduImage(src,year,credit){
+
+
+document.getElementById("eduViewer").style.display="flex";
+
+
+document.getElementById("eduBigImage").src=src;
+
+
+document.getElementById("viewerYear").innerHTML=year;
+
+
+document.getElementById("photoCredit").innerHTML=credit;
+
+
+}
+
+
+
+function closeEduImage(){
+
+
+document.getElementById("eduViewer").style.display="none";
+
+
+}
+
+
+
+
+</script>
+
+
+
+</body>
+
+</html>
